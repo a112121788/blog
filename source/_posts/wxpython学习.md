@@ -1,9 +1,6 @@
 title: wxpython学习 
 date: 2016-10-03 10:50:50
 updated: 2016-10-03 10:50:54
-tags: 
--  wxpython学
-- 学习
 ---
 
 template 
