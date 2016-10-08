@@ -1,5 +1,6 @@
 hexo g
 
-cp -Rf ../studio public/studio
+rm -rf public/studio/*
+cp -Rf ../studio/* public/studio/
 
 hexo d
