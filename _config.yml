@@ -81,4 +81,3 @@ theme: even
 deploy:
   type: git
   repository: https://git.coding.net/a112121788/blog.git
-  branch: pg
