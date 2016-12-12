@@ -1,4 +1,4 @@
-title: 常用的gem库
+htitle: 常用的gem库
 date: 2016-05-22 23:00:00
 tags: [ruby, gem]
 ---
@@ -74,3 +74,20 @@ Resque, mongoid, kaminari, rails, devise, slim, Mysql2, RailsAdmin,....
 
 ## rdoc
 RDoc produces HTML and command-line documentation for Ruby projects. RDoc includes the +rdoc+ and +ri+ tools for generating and displaying documentation from the command-line.
+
+## Sorcery
+ 用户管理Gem，用于密码管理、session管理、邮件发送等等众多功能
+## Sidekiq
+ 负责异步任务处理，目前Ruby中最有名的异步任务组件之一，也是主流的异步框架
+##  Bootstrap和FontAwesome
+ 前端使用最多的CSS框架和图标库
+## Capistrano
+主流的自动化部署工具
+## Nokogiri
+主流的页面分析工具，支持HTML和XML
+## Mina
+另一款轻量级的自动化部署工具
+## EventMachine
+如果你要自己实现基于进程或者线程的服务，那么eventmachine是首选
+## 以及其他一些主流gems，
+will_paginate ／ kaminari / cancancan / carrierwave等等
