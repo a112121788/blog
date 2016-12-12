@@ -80,4 +80,5 @@ theme: even
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repository: https://git.coding.net/a112121788/a112121788.git
+  repository: https://git.coding.net/a112121788/blog.git
+  branch: pg
