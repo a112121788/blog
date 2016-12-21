@@ -8,6 +8,7 @@ web-learn
 
 # 如何快速正确的安装 Ruby, Rails 运行环境
     https://ruby-china.org/wiki/install_ruby_guide
+rails new . --git --database=postgresql
 
 # nojde.js 文件服务器
 ```javascript

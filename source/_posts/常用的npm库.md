@@ -23,3 +23,6 @@ An implementation of task/event based asynchronous pattern
 测试率覆盖工具 istanbul : https://github.com/gotwarlost/istanbul
 # Makefile
 简单 Makefile 的编写 : http://blog.csdn.net/haoel/article/details/2886
+# static-webserver
+静态web服务器 cnpm install -g static-webserver
+
