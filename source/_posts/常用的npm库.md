@@ -26,3 +26,10 @@ An implementation of task/event based asynchronous pattern
 # static-webserver
 静态web服务器 cnpm install -g static-webserver
 
+# formidable
+# express
+# npm install express-generator -g 
+# jade
+# yo http://yeoman.io/
+# generator-react-webpack
+# bower web包管理 就是国外的源 不稳定
