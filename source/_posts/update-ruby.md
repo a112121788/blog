@@ -11,9 +11,9 @@ ruby 1.9.3 to 2.3.1
 安装rbenv
 
 参照rbenv安装说明
+<https://github.com/rbenv/rbenv>
 
 执行到说明的第五步时，执行如下git命令
-
     $git clone https://github.com/rbenv/ruby-build.git ~/.rbenv/plugins/ruby-build
 执行上面git完成后，执行如下git命令
 
