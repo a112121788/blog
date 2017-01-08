@@ -17,5 +17,45 @@ tags: [git, 问题]
 3. git 
 4.   git reset f8d834a1b720d00c1175042da038d4e7866e26d1 --hard 
 
+# 总结
+git学习
+
+git remote add pb git://github.com/paulboone/ticgit.git
+ git push origin master
+
+git fetch [remote-name]
+ git remote show origin
+git remote rename pb paul
+git remote rm paul
+git branch testing
+
+git checkout testing
+
+git checkout -b iss53
+# step 1
+$ git branch iss53
+# step 2
+$ git checkout iss53
+
+git checkout -b 'hotfix'
+$ git checkout master
+# step 2
+$ git merge hotfix
+
+ git branch -d hotfix
+
+git checkout master
+git merge iss53
+
+git checkout -b serverfix origin/serverfix
+
+git checkout --track origin/serverfix
+
+git checkout -b sf origin/serverfix
+
+git push origin :serverfix 删除远程分支
+
+
+
 # 参考
 1. <http://hubingforever.blog.163.com/blog/static/171040579201231110371044/>
