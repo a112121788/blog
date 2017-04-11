@@ -1,0 +1,50 @@
+# navbar
+menu:
+  搜索: https://www.google.com/#q=site:www.gaoshuaipeng.com
+  归档: /archives/
+  标签: /tags/
+  # 阅读: /read/
+  小书: /books/
+  关于: /about/
+  # 工作室: /studio/
+
+# site icon
+favicon: /favicon.ico
+
+# theme styling
+# color: Default | Mint Green | Cobalt Blue | Hot Pink | Dark Violet
+theme:
+  color: Mint Green
+  headerlink: "§"
+
+# comments
+comments:
+  post: true
+  read: true
+  about: false
+
+# article directory sidebar
+sidebar: true
+
+# Analytics
+## Baidu Analytics
+baidu_analytics: "a8e4d577c5c55a854a3b8b248ea649fb"
+## Google Analytics
+google_analytics: Your Google Analytics ID
+
+# Comments
+## Duoshuo
+duoshuo_shortname: gaoshuaipeng
+## Disqus
+# disqus_shortname: Your disqus ID
+
+# Social links
+social:
+  email: a112121788@163.com
+  # stack-overflow:
+  twitter: "https://twitter.com/gaoshuaipeng"
+  # facebook:
+  github: "https://github.com/a112121788"
+  weibo: "http://weibo.com/a112121788"
+  # zhihu:
+  rss: /atom.xml
