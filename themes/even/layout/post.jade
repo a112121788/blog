@@ -9,6 +9,7 @@ block title
   title= page.title + " | " + config.title
 
 block container
+  span= readingTime(page.content)
   +post()
 
 block tags
