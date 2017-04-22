@@ -1,9 +1,9 @@
 {
-  "name": "hexo-site",
-  "version": "0.0.0",
+  "name": "pengpeng-blog",
+  "version": "0.0.1",
   "private": true,
   "hexo": {
-    "version": "3.2.2"
+    "version": "3.3.1"
   },
   "dependencies": {
     "hexo": "^3.2.2",
