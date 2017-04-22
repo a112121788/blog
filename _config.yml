@@ -5,7 +5,7 @@
 # Site
 title: 朋朋的博客
 subtitle:
-description:
+description: 技术 高帅朋 前端 后端 nodejs ruby Python 
 author: pengpeng
 language:
 timezone:
@@ -14,7 +14,7 @@ timezone:
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://www.gaoshuaipeng.com
 root: /
-permalink: :year/:month/:day/:title/
+permalink: :year-:month-:day-:title/
 permalink_defaults:
 
 # Directory
