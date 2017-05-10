@@ -71,3 +71,12 @@ seq 9 | sed 'H;g' | awk -v RS='' '{for(i=1;i<=NF;i++)printf("%dx%d=%d%s", i, NR,
 第四级，能和产品经理一起控制有潜在问题的需求，并对常用场景提供标准化解决方案；
 第五级，能把自己的能力批量复制给同事和下属；
 第六级，能在战略层理解技术对公司业务的作用，不断的通过技术改进和技术创新推动公司业务发展。
+
+
+Keep the end in mind, but focus today on simply levelling up.
+
+You do X and Y happens.
+
+
+
+
