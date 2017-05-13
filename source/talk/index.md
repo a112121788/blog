@@ -74,9 +74,11 @@ seq 9 | sed 'H;g' | awk -v RS='' '{for(i=1;i<=NF;i++)printf("%dx%d=%d%s", i, NR,
 
 
 Keep the end in mind, but focus today on simply levelling up.
-
 You do X and Y happens.
 
+能力 && 信任 && 格局
+工资以外的收入
+体力 智力 判断力
 
-
-
+在设计之初，特别是思考核心功能和 UX 时，建议采用黑白初稿。
+因为色彩可能会激起我们的情绪，打扰我们对于核心功能的设计。
