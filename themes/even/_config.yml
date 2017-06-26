@@ -3,10 +3,8 @@ menu:
   搜索: https://www.google.com/#q=site:www.gaoshuaipeng.com
   归档: /archives/
   标签: /tags/
-  周刊: /week/
-  # 小书: /books/
+  talk: /talk/
   关于: /about/
-  # 工作室: /studio/
 
 # site icon
 favicon: /favicon.ico
