@@ -16,3 +16,4 @@ sync_changes.log
 sync_hook.script
 
 **/.Archive
+sorts.json
