@@ -1,48 +1,80 @@
-# navbar
-menu:
-  搜索: https://www.google.com/#q=site:www.gaoshuaipeng.com
-  归档: /archives/
-  标签: /tags/
-  talk: /talk/
-  关于: /about/
+# ===========================================
+# Site Information Settings
+# ===========================================
 
-# site icon
+# Site creation time
+since: 2014
+
+# Custom your favicon.ico in `site/source`
 favicon: /favicon.ico
 
+# Set feed link (false | default | your feed link)
+# false: disable
+# default: use `atom.xml`, generator for `hexo-generator-feed`
+rss: false
+
+# ===========================================
+# Menu Settings
+# ===========================================
+menu:
+  技术: /tags/技术/
+  产品: /tags/产品/
+  设计: /tags/设计/
+  搜书: http://118.190.203.95:8090/sobook
+  # 市场: /tags/市场/
+  # 运营: /tags/运营/
+  # 销售: /tags/销售/
+  # Tags: /tags
+  # Categories: /categories
+  # About: /about
+
+# ===========================================
+# Theme Settings
+# ===========================================
 # theme styling
-# color: Default | Mint Green | Cobalt Blue | Hot Pink | Dark Violet
+# color: Default | Mint Green | Cobalt Blue | Hot Pink | Dark Violet | Peng Blue
 theme:
-  color: Mint Green
-  headerlink: "§"
+  color: Peng Blue
+  toc: true
+  search: false
+  fancybox: true
 
-# comments
-comments:
-  post: true
-  read: true
-  about: false
+copyright:
+  enable: true
+  # https://creativecommons.org/
+  # license: '本文采用<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/" target="_blank">知识共享署名-非商业性使用 4.0 国际许可协议</a>进行许可'
 
-# article directory sidebar
-sidebar: true
+reward:
+  enable: true
+  qrCode:
+    wechat: /image/reward/wechat.png
 
-# Analytics
-## Baidu Analytics
-baidu_analytics: "a8e4d577c5c55a854a3b8b248ea649fb"
-## Google Analytics
-google_analytics: Your Google Analytics ID
-
-# Comments
-## Duoshuo
-duoshuo_shortname: gaoshuaipeng
-## Disqus
-# disqus_shortname: Your disqus ID
-
-# Social links
+# ===========================================
+# Social links Settings
+# ===========================================
 social:
-  email: a112121788@163.com
-  # stack-overflow:
-  twitter: "https://twitter.com/gaoshuaipeng"
-  # facebook:
-  github: "https://github.com/a112121788"
-  weibo: "http://weibo.com/a112121788"
-  # zhihu:
-  rss: /atom.xml
+  github: https://github.com/a112121788
+  weibo: http://weibo.com/a112121788
+  twitter: https://twitter.com/gaoshuaipeng
+  email: admin@upgradecoder.com
+
+# ===========================================
+# Third Party Services Settings
+# ===========================================
+
+# Baidu Analytics
+baidu_analytics:
+# Google Analytics
+google_analytics:
+
+# Duoshuo
+# duoshuo_shortname:
+# Disqus
+disqus_shortname:
+# netease
+netease_key: da5a18dfc88c4ba2911899802ffe3aca
+
+# ===========================================
+# Version
+# ===========================================
+version: 2.4.x

@@ -1,29 +1,24 @@
 # hexo-theme-even
 
-A super simple theme for Hexo 
+> A super simple theme for Hexo
 
-![even](http://ww4.sinaimg.cn/large/006tNbRwjw1f6l0ryrho2j31kw0yb7a6.jpg)
+[在线预览 Demo](http://ahonn.github.io/hexo-theme-even/)
+![even](http://ww2.sinaimg.cn/large/006tNc79gw1faoa9tm7gnj312v0or421.jpg)
 
-## Demo
-Check out Even theme in live : [demo](http://www.ahonn.me)
+## 特性 Feature
+- 自定义样式
+- 支持站内搜索
+- 支持 Fancybox
+- 版权信息，自定义许可协议
+- 文章打赏，添加二维码
 
-## Document
-- [中文文档](/doc/doc_zh.md)
-- [Document](/doc/doc_en.md)
-
-## Installation
+## 安装使用 Installation
 ```
-$ hexo init blog
-$ cd blog
-$ npm install
-$ npm install --save hexo-renderer-jade hexo-renderer-scss hexo-generator-feed hexo-generator-sitemap hexo-browsersync
-$ cd themes/
-$ git clone https://github.com/ahonn/hexo-theme-even even
-$ cd even/
-$ cp _config.yml.sample _config.yml
+$ npm install hexo-renderer-scss --save
+$ git clone https://github.com/ahonn/hexo-theme-even themes/even
 ```
 
-Then update your blog's `_config.yml`(yourblog/_config.yml_) to use the theme.
+修改配置文件中的 `theme` 字段为 `even`:
 
 ```
 # Extensions
@@ -32,5 +27,8 @@ Then update your blog's `_config.yml`(yourblog/_config.yml_) to use the theme.
 theme: even
 ```
 
-## Contact
+## 文档 Document
+[wiki](https://github.com/ahonn/hexo-theme-even/wiki)
+
+## 联系我 Contact
 Email: [ahonn95@outlook.com](mailto:ahonn95@outlook.com)
