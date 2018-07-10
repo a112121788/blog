@@ -5,7 +5,7 @@
 hugo # if using a theme, replace with `hugo -t <YOURTHEME>`
 
 # Go To Public folder
-cd public
+
 # Add changes to git.
 cp -r public/* ../blog_deploy
 
