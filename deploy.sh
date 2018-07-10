@@ -1,12 +1,27 @@
-hexo g
+#!/bin/bash
 
-# rm -rf public/studio/*
-# cp -Rf ../studio/* public/studio/
 
-# rm -rf public/full_stack_book/*
-# cp -Rf ../full_stack_book/_book/* public/full_stack_book/
+# Build the project.
+hugo # if using a theme, replace with `hugo -t <YOURTHEME>`
 
-# rm -rf public/react-native-learn/*
-# cp -Rf ../react-native-learn/_book/* public/react-native-learn/
+# Go To Public folder
+cd public
+# Add changes to git.
+cp -r public/* ../blog_deploy
 
-hexo d
+
+cd ../blog_deploy
+git add --all
+
+# Commit changes.
+msg="rebuilding site `date`"
+if [ $# -eq 1 ]
+  then msg="$1"
+fi
+git commit -m "$msg"
+
+# Push source and build repos.
+git push origin master
+
+# Come Back up to the Project Root
+cd ..
