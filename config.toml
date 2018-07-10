@@ -1,4 +1,4 @@
-baseURL = "https://www.upgradecoder.com/goweekly/"
+baseURL = "https://www.gaoshuaipeng.com/"
 languageCode = "zh-cn"
 defaultContentLanguage = "zh-cn"                             # en / zh-cn / ... (This field determines which i18n file to use)
 title = "朋朋的博客"
@@ -98,7 +98,7 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
 
   [params.gitalk]           # Gitalk is a comment system based on GitHub issues. see https://github.com/gitalk/gitalk
     owner = "a112121788"              # Your GitHub ID
-    repo = "blog-commit"               # The repo to store comments
+    repo = "blog-comment"               # The repo to store comments
     clientId = "26f5bbbf63376aa93bf6"           # Your client ID
     clientSecret = "641861f8cf1653fb33a29b97569f925d6dc5ac96"       # Your client secret
 
