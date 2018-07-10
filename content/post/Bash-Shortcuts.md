@@ -1,3 +1,4 @@
+---
 title: Bash Shortcuts
 date: 2015-12-20 15:39:43
 tags: [bash,快捷键]

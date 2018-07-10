@@ -1,3 +1,4 @@
+---
 title: Mysql忘了密码
 date: 2016-12-28 08:37:36
 tags: [Mysql]

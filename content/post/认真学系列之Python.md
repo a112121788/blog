@@ -1,3 +1,4 @@
+---
 title: 认真学系列之Python
 date: 2017-04-24 06:46:04
 tags: 

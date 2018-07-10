@@ -1,3 +1,4 @@
+---
 title: ruby-install
 date: 2016-05-27 0:0:00
 tags: [ruby]

@@ -1,3 +1,4 @@
+---
 title: SOLID
 date: 2016-11-20 11:57:08
 tags: 

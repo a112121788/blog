@@ -1,3 +1,4 @@
+---
 title: (收藏)How To Learn Anything 10x Faster
 date: 2017-01-08 13:48:47
 tags: []

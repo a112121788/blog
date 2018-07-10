@@ -1,3 +1,4 @@
+---
 title: Sublime-Text-Setting
 date: 2015-12-13 15:14:00
 tags: [sublime text,setup]
