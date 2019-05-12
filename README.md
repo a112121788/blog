@@ -1,3 +1,6 @@
-# goweekly
+# blog
 
-<http://www.upgradecoder.com/goweekly/>
+# new post
+```
+hugo new post/xx.md
+```
